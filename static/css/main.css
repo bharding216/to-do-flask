@@ -56,8 +56,7 @@ th {
     margin-right: auto;
     margin-bottom: 25px;
     padding: 10px;
-    background-color: #ffffff;
-
+    background-color: #9faaff;
 }
 
 td{
@@ -71,10 +70,9 @@ td{
     padding: 10px;
     background-color: #ffffff;
     word-wrap: break-word;
-
 }
 
-a.del:link, a:visited {
+a.del:link, a.del:visited {
     background-color:blue;
     color: white;
     padding: 5px 20px 5px 20px;
@@ -85,7 +83,7 @@ a.del:link, a:visited {
     border-radius: 20px;
 }
 
-a.up:link, a:visited {
+a.up:link, a.up:visited {
     background-color:blue;
     color: white;
     padding: 5px 20px 5px 20px;
@@ -95,7 +93,11 @@ a.up:link, a:visited {
     border-radius: 20px;
 }
 
-a:hover, a:active {
+a.del:hover, a.del:active {
+    background-color:navy;
+}
+
+a.up:hover, a.up:active {
     background-color:navy;
 }
 
