@@ -1,8 +1,105 @@
-body {
-    margin: 0;
+/* general format is selector {property:value; property:value; etc.}*/
+/* the selector points to the HTML element you want to style*/
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #3176ee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    text-align: center;
     font-family: sans-serif;
 }
 
-table, th, td {
-    border: 1px solid black;
+body, html {
+    text-align: center;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("beach.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-transform: capitalize;
+}
+
+/*th = table header, td = data cell (table data)*/
+table {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 50%;
+    opacity: 0.9;
+}
+
+th {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+
+td{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #ffffff;
+    word-wrap: break-word;
+
+}
+
+a.del:link, a:visited {
+    background-color:blue;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+a.up:link, a:visited {
+    background-color:blue;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+a:hover, a:active {
+    background-color:navy;
+}
+
+input[type=text], select {
+    margin-bottom: 200px;
+
 }
