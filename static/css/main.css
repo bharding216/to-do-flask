@@ -9,6 +9,8 @@ h1 {
     background-color: #3176ee;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -104,10 +106,13 @@ a.up:hover, a.up:active {
 input[type=text], select {
     width: 75%;
     margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 12px 20px;
 }
 
 input[type=submit] {
     width: 35%;
+    padding: 8px 20px;
 }
 
 input[type=submit]:hover {

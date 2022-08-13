@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- the base html file is the parent. it allows you to define the blocks-->
+<!-- that child templates can fill in. -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +9,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <!--this script tag is a link to your personal font awesome account-->
     <script src="https://kit.fontawesome.com/d2d4a0cc10.js" crossorigin="anonymous"></script>
-    {% block head %}{% endblock %}
+    <!--this next line is how you set the favicon logo for your website -->
+    <link rel="icon" type="image/x-icon" href="/static/css/smile.png">
+
+    {% block head %}
+    {% endblock %}
 </head>
+
 <body>
-    {% block body %}{% endblock %}
+    {% block body %}
+    {% endblock %}
 </body>
+
 </html>
